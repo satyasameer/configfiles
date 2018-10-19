@@ -2,7 +2,7 @@
 
 echo "######### DRY RUN #########"
 
-rsync -azv --dry-run --delete --exclude "sync.sh" --exclude ".terraform" /home/sameer/test-terraform/terraform-host/ezsatsa/* cvc-test-terraform:/home/ezsatsa/
+rsync -azv --dry-run --delete --exclude "" --exclude ".terraform" <src>  ssh-host:<dest>
 echo "##############\n"
 
 if [ "$1" != "-y" ]
@@ -16,4 +16,4 @@ fi
 
 echo "\n\nSyncing........"
 
-rsync -azv --delete --exclude "sync.sh" --exclude ".terraform" /home/sameer/test-terraform/terraform-host/ezsatsa/* cvc-test-terraform:/home/ezsatsa/
+rsync -azv --delete --exclude "" --exclude "" <src> ssh-host:<dest>
