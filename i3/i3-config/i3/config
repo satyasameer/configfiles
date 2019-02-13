@@ -160,3 +160,6 @@ bar {
 
 
 
+exec --no-startup-id feh --bg-fill ~/Downloads/2.jpg 
+exec --no-startup-id compton -b
+exec_always --no-startup-id ~/.config/polybar/launch.sh
