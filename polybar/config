@@ -59,7 +59,7 @@ font-3 = Material\ Design\ Icons:size=10;1
 
 modules-left = i3
 modules-center = date
-modules-right = filesystem alsa pulseaudio xkeyboard memory cpu eth battery powermenu
+modules-right = filesystem xkeyboard memory cpu eth battery powermenu
 
 tray-position = right
 tray-padding = 2
